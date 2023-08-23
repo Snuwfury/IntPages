@@ -1,0 +1,63 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+
+/*Variables*/
+:root{
+    --font-family: 'Mulish', sans-serif;
+}
+
+@media screen and (max-width: 576px) {
+    #stt{
+            width: 75%;
+            margin-bottom: 30px;   
+        }
+  }
+
+/*Estructura*/
+*{
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+}
+main{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+h1{
+font-size: 53.33px !important;
+color: #3957f1 !important;
+text-align: center;
+}
+h2{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+font-size: 1.2rem !important;
+color: #15163d !important;
+}
+img{
+width: 100%;
+}
+
+
+/*Clases*/
+.regular{
+font-weight: 400;
+}
+.bold{
+font-weight: 700;
+}
+.ttl{
+    margin-top: 50px;
+}
+.shdw{
+    box-shadow: 2px 2px 2px gray;
+}
+
+/*ID'S*/
+#crsl{
+    margin-top: 50px;
+}
