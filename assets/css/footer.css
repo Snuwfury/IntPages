@@ -1,0 +1,46 @@
+ /*FONTS*/
+    @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;600;700&display=swap');
+
+/*ESTRUCTURA*/
+    *{
+        font-family: 'Mulish', sans-serif;
+    }
+    li{
+        font-size: 20px;
+    }
+    footer{
+        color: rgb(71, 66, 71);
+        background-color: rgb(199, 207, 212);
+    }
+/*CLASES*/
+    .txtCenter{
+        text-align: center;
+    }
+    .extralight{
+        font-weight: 200;
+    }
+    .light{
+        font-weight: 300;
+    }
+    .regular{
+        font-weight: 400;
+    }
+    .semibold{
+        font-weight: 600;
+    }
+    .bold{
+        font-weight: 700;
+    }
+
+ 
+/*ID'S*/
+    #imgcontactanos{
+        margin-left: 90px;
+        margin-bottom: 30px;
+    }
+    #formm{
+        margin-top:;
+    }
+    #escribinos{
+        border-radius: 5px;
+    }

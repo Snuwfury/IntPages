@@ -1,0 +1,154 @@
+ /*FONTS*/
+ @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;600;700&display=swap');
+
+ /*ESTRUCTURA*/
+*{
+       font-family: 'Mulish', sans-serif;
+}
+  .bgImg {
+    background-image: url('/bootcamp-java-2023-proyectointegrador-fase1/assets/imgs/donaahora.jpg'); /* Reemplaza con la ruta de tu imagen */
+    background-size: cover;
+    background-position: 65% 25%; ;
+    height: 600px;
+  }
+ 
+  .container {
+    display: flex;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    height: 100%;
+  }
+  .formCont {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    width: 400px !important;
+  }
+  .formTitle {
+    font-size: 35px !important;
+    margin-bottom: 20px;
+    padding-left: 10px;
+  }
+
+/*ID'S*/
+#mmain {
+    padding: 20px;
+}
+
+#mmain h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#mmain p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#mmain ul {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#mmain form label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+#mmain input[type="text"],
+#mmain input[type="email"],
+#mmain textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#mmain button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#mmain button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+
+/*CLASES*/
+.fSize{
+    font-size: 60px !important;
+
+}
+.whImg{
+    width: 130px;
+}
+.whPf{
+    width: 230px;
+}
+
+.marginPg{
+    margin-bottom: 200px !important;
+}
+.parrUlt{
+    background-color: rgb(7, 70, 21);
+    font-size: 30px !important;
+    padding: 10px;
+    color: white;
+}
+.txtCenter {
+  text-align: center;
+}
+.extralight{
+font-weight: 200;
+}
+.light{
+font-weight: 300;
+}
+.regular{
+font-weight: 400;
+}
+.semibold{
+font-weight: 600;
+}
+.bold{
+font-weight: 700;
+}
+
+@media screen and (max-width: 992px) {
+  
+}
+@media screen and (max-width: 550px) {
+  .bgImg{
+      background-image: none;
+  }
+  .container {
+    display: flex;
+    justify-content: center!important;
+    align-items: center !important;
+    height: 100%;
+  }
+  .formCont {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  margin-left: 50px;  }
+}
+@media screen and (max-width: 300px) {
+  .formCont {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    width: 200px !important;
+  margin-left: 50px;  }
+}
+}

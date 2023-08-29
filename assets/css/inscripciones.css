@@ -1,0 +1,87 @@
+ /*FONTS*/
+ @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;600;700&display=swap');
+
+ /*ESTRUCTURA*/
+*{
+       font-family: 'Mulish', sans-serif;
+}
+
+/*ID'S*/
+#inscripciones {
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+
+/*CLASES*/
+.inscripciones-content {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.msjError {
+    color: red;
+    font-size: 12px;
+}
+.img{
+    width: 314px !important;
+    height: 230px !important;
+}
+.inscripciones-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.inscripciones-content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.inscripciones-content ul {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.inscripciones-content ul li {
+    margin-bottom: 10px;
+}
+.inscripciones-content form label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.inscripciones-content select,
+.inscripciones-content input[type="text"],
+.inscripciones-content input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.inscripciones-content button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.inscripciones-content button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+  .txtCenter {
+    text-align: center;
+  }
+  .extralight{
+  font-weight: 200;
+  }
+  .light{
+  font-weight: 300;
+  }
+  .regular{
+  font-weight: 400;
+  }
+  .semibold{
+  font-weight: 600;
+  }
+  .bold{
+  font-weight: 700;
+  }

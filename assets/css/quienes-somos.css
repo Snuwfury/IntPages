@@ -1,0 +1,173 @@
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;600;700&display=swap');
+
+/*ESTRUCTURA*/
+*{
+    font-family: 'Mulish', sans-serif;
+}
+
+/*CLASES*/
+.section {
+    padding: 50px 0;
+  }
+  .bkgrnd {
+    position: relative;
+    background-image: url('/bootcamp-java-2023-proyectointegrador-fase1/assets/imgs/refuerzo-escolar.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+  }
+  
+  .txtBkgrnd {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    background-color: rgba(122, 153, 38, 0.904);
+    transform: scale(0.5);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 2s, transform 1s;
+  }
+  .box {
+    flex-basis: calc(33.33% - 20px) !important;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+  }
+  .box h2 {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .cntainBox{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.logoAnim {
+    text-align: center !important;
+}
+  .txtsize{
+    font-size: 60px;
+  }
+  .txtsize2{
+    font-size: 30px;
+  }
+  .txtCenter {
+    text-align: center;
+  }
+
+
+  .extralight{
+    font-weight: 200;
+    }
+    .light{
+    font-weight: 300;
+    }
+    .regular{
+    font-weight: 400;
+    }
+    .semibold{
+    font-weight: 600;
+    }
+    .bold{
+    font-weight: 700;
+    }
+
+
+
+    @media screen and (max-width: 1200px) {
+      .txtBkgrnd {
+        position: absolute;
+        top: 10% !important;
+        left: 50%;
+        background-color: rgba(122, 153, 38, 0.904);
+        transform: scale(0.5);
+        color: white;
+        padding: 20px;
+        border-radius: 10px;
+        opacity: 0;
+        transition: opacity 2s, transform 1s;
+      }
+      .cntainBox{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        background-color: #f2f2f2;
+        padding: 20px;
+    }
+    @media screen and (max-width: 992px) {
+      .box {
+        flex-basis: calc(30% - 20px) !important;
+        background-color: #ffffff;
+        border: 1px solid #cccccc;
+        border-radius: 10px;
+        padding: 10px;  
+      }
+      #logoAni{
+        width: 250px !important;
+        height: 200px !important;
+         }
+    }
+
+    }
+    @media screen and (max-width: 768px) {
+      main{
+        width: 100vw !important;
+      }
+      .txtBkgrnd {
+        position: absolute;
+        top: 30% !important;
+        left: 20% !important;
+        background-color: rgba(122, 153, 38, 0.904);
+        transform: scale(0.5);
+        color: white;
+        padding: 10px !important;
+        border-radius: 10px;
+        opacity: 0;
+        transition: opacity 2s, transform 1s;
+        height: 250px;
+      }
+      
+      .txtsize{
+        font-size: 40px !important;
+      }
+      .txtsize2{
+        font-size: 20px !important;
+      }
+      .cntainBox{
+        display: flex;
+        flex-direction: column;
+        background-color: #f2f2f2;
+        padding: 20px;
+    }
+    }
+    @media screen and (max-width: 300px) {
+      .txtBkgrnd {
+        position: absolute;
+        top: 30% !important;
+        left: 20% !important;
+        background-color: rgba(122, 153, 38, 0.904);
+        transform: scale(0.5);
+        color: white;
+        padding: 10px !important;
+        border-radius: 10px;
+        opacity: 0;
+        transition: opacity 2s, transform 1s;
+        height: 200px;
+      }
+      .txtsize{
+        font-size: 30px !important;
+      }
+      .txtsize2{
+        font-size: 15px !important;
+      }
+    }
+  
